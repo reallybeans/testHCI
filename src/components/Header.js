@@ -2,34 +2,40 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 function Header() {
-const [burgerStatus, setBugerStatus] = useState(false);
+    const [burgerStatus, setBugerStatus] = useState(false);
 
     return (
-        <Container>
-            <a>
-                <img src="/images/logo.jpg"></img>
-            </a>
-            <Menu>
-                <a href="#">Home</a>
-                <a href="#">Item</a>
-                <a href="#">About</a>
-            </Menu>
-            <RightMenu>
-                <CustomMenu onClick={() =>setBugerStatus(true)}></CustomMenu>
+        <Router>
+            <Container>
+                <a>
+                    <img src="/images/logo.jpg"></img>
+                </a>
+                <Menu>
+                    <a> <Link to="/">Home</Link></a>
+                </Menu>
+                <RightMenu>
+                    <CustomMenu onClick={() => setBugerStatus(true)}></CustomMenu>
 
-                <BurgerNav show={burgerStatus}>
-                    <CloseWrapper>
-                        <CustomClose onClick={() =>setBugerStatus(false)}/>
-                    </CloseWrapper>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Favorites</a></li>
-                    <li><a href="#">Item liked</a></li>
-                    <li><a href="#">Follow</a></li>
-                    <li><a href="#">Logout</a></li>
-                </BurgerNav>
-            </RightMenu>
-        </Container>
+                    <BurgerNav show={burgerStatus}>
+                        <CloseWrapper>
+                            <CustomClose onClick={() => setBugerStatus(false)} />
+                        </CloseWrapper>
+                        <li><Link to="/">Home</Link></li>
+                        <li><a href="#">Favorites</a></li>
+                        <li><a href="#">Item liked</a></li>
+                        <li><a href="#">Follow</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </BurgerNav>
+                </RightMenu>
+            </Container>
+        </Router>
     )
 }
 
@@ -37,7 +43,8 @@ export default Header
 
 const Container = styled.div`
 min-height:60px;
-position :fixed;
+position :absolute;
+overflow-x: hidden;
 display:flex;
 align-items : center;
 padding: 0 20px;
@@ -62,6 +69,8 @@ a {
     padding: 0 10px;
     flex-wrap: nowrap;
     margin-left:50px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 `
 const RightMenu = styled.div`
@@ -91,7 +100,7 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 text-align: start;
-transform: ${props => props.show ? 'translateX(0)':'translateX(100%)'};
+transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
 transition: transform 0.2s ease-in;
 li {
   padding: 15px 0;

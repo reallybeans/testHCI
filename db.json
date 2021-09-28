@@ -1,0 +1,145 @@
+{
+    "user": [
+        {
+            "id": "1",
+            "name": "Nhut Anh",
+            "email": "anhln1@gmail.com",
+            "role": "admin",
+            "status": "true"
+        },
+        {
+            "id": "2",
+            "name": "Nhut B",
+            "email": "anhln2@gmail.com",
+            "role": "customer",
+            "status": "true"
+        },
+        {
+            "id": "3",
+            "name": "Nhut C",
+            "email": "anhln3@gmail.com",
+            "role": "customer",
+            "status": "true"
+        },
+        {
+            "id": "4",
+            "name": "Nhut D",
+            "email": "anhln4@gmail.com",
+            "role": "customer",
+            "status": "true"
+        },
+        {
+            "id": "5",
+            "name": "Nhut E",
+            "email": "anhln5@gmail.com",
+            "role": "customer",
+            "status": "true"
+        },
+        {
+            "id": "6",
+            "name": "Nhut F",
+            "email": "anhln6@gmail.com",
+            "role": "customer",
+            "status": "false"
+        },
+        {
+            "id": "7",
+            "name": "Nhut G",
+            "email": "anhln7@gmail.com",
+            "role": "customer",
+            "status": "false"
+        }
+    ],
+    "pc-case": [
+        {
+            "id": "1",
+            "title": "title1",
+            "body": "body1",
+            "publisedtAt": "11-01-2021"
+        }
+    ],
+    "motherboard": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "cpu": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "gpu": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "ram": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "cooler": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "storage": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "psu": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "monitor": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "keyboard": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "mouse": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "table": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ],
+    "chair": [
+        {
+            "id": "1",
+            "name": "nhutanh",
+            "email": "anh@gmail.com"
+        }
+    ]
+}

@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import Fade from 'react-reveal/Fade'
 function Section() {
     return (
@@ -39,6 +37,7 @@ function Section() {
 export default Section
 // set style
 const Wrap = styled.div`
+overflow-x: hidden;
 width: 100vw;
 height: 100vh;  
 background-image: url('/images/bg1.jpg');
