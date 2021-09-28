@@ -50,96 +50,23 @@
             "status": "false"
         }
     ],
-    "pc-case": [
+    "accessorie": [
         {
             "id": "1",
-            "title": "title1",
-            "body": "body1",
-            "publisedtAt": "11-01-2021"
-        }
-    ],
-    "motherboard": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "cpu": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "gpu": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "ram": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "cooler": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "storage": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "psu": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "monitor": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "keyboard": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "mouse": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "table": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
-        }
-    ],
-    "chair": [
-        {
-            "id": "1",
-            "name": "nhutanh",
-            "email": "anh@gmail.com"
+            "code": "MXS20123123",
+            "name": "MSI Monitor",
+            "category": "Monitor",
+            "makeAt": "Califonia", 
+            "price": "300$",
+            "color": "black-white",
+            "inventoryAt": "Q3, HCM",
+            "quality": "normal",
+            "quantity": "1000",
+            "descripton": "This is a good monitor 27in for play game.",
+            "dateCreate": "11-01-2021",
+            "insurance": "6 months",
+            "status": "stocking",
+            "type": "gaming"
         }
     ]
 }

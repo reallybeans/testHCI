@@ -23,19 +23,7 @@ function App() {
           <Route path="/admin">
             <Admin dataProvider={restProvider('http://localhost:3000')}>
               <Resource name='User' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Case' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Motherboard' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='CPU' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='GPU' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='RAM' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='COOLER' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Storage' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='PSU' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Monitor' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Keyboard' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Mouse' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Table' list={UserList} create={UserCreate} edit={UserEdit}/>
-              <Resource name='Chair' list={UserList} create={UserCreate} edit={UserEdit}/>
+              <Resource name='Categorie' list={UserList} create={UserCreate} edit={UserEdit}/>
             </Admin>
           </Route>
           <Route path="/">
